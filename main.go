@@ -90,4 +90,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	http.ListenAndServe(":8080", nil)
 }
